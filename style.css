@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    background: hsl(212, 45%, 89%);
+    display:flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-qrcard {
+   background: #fff;
+   display:flex;
+   flex-direction: column;
+   padding: 15px;
+   border-radius: 20px;
+   justify-content: center;
+   width: min-content;
+   transition: box-shadow 0.4s;
+   height: fit-content;
+}
+
+.container-qrcard:hover {
+    box-shadow: 10px 10px 5px rgb(204, 204, 255);   
+}
+
+.container-qrcard img {
+    width: 260px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.container-qrcard h2 {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: outfit;
+}
+.container-qrcard p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px;
+    font-family: outfit;
+}
